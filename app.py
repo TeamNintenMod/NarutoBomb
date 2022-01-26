@@ -20,7 +20,7 @@ COUNTRY_REGIONS = dict([l.split(" ") for l in open(os.path.join(app.root_path, '
 
 try:
     import geoip2.database, geoip2.errors
-    gi = geoip2.database.Reader('/usr/share/GeoIP/GeoLite2-Country.mmdb')
+    gi = geoip2.database.Reader('GeoLite2-Country.mmdb')
 except ImportError:
     gi = None
 
