@@ -148,4 +148,4 @@ def haxx():
 application=app
 
 if __name__ == "__main__":
-    app.run('please.narutobombmii.com', 9999)
+    app.run('0.0.0.0', 9999)
