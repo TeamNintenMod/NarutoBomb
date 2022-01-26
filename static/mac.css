@@ -20,11 +20,8 @@ input.button {
 	text-align:center;
 }
 
-input.buttonr:enabled {
-	border-color:red;
-}
-input.buttonb:enabled {
-   border-color:blue;
+input.button:enabled {
+	border-color:orangered;
 }
 
 input.box {
