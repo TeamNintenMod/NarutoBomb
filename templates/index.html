@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>LetterBomb</title>
+	<title>NarutoBomb</title>
 	<link rel="stylesheet" type="text/css" href="/static/mac.css" />
 	<script type="text/javascript">
 		captcha_passed = false;
 		function keyHandler(e, obj, next) {
-			if (window.event) { // IE
+			if (window.event) {
 				keynum = e.keyCode;
-			} else if(e.which) { // sane browsers 
+			} else if(e.which) { 
 				keynum = e.which;
 			}
 			if (keynum == 0x08 || keynum == 0x09 || (keynum >= 96 && keynum <= 105))
